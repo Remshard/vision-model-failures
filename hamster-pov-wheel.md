@@ -11,6 +11,6 @@ Despite the explicit instruction to fix the camera viewpoint just ahead of the h
 There is no clear depiction of the inner curvature, dynamic vanishing lines, or depth cues that would anchor the hamster in a coherent 3D space. The image exhibits pattern recall (e.g., centered hamster, flat surfaces) rather than simulating the requested geometric framing.
 
 ## Takeaway
-The model fails to render a consistent 3D perspective despite explicit prompt instructions involving fixed viewpoint and depth. There is no foreshortening or distortion expected from a close-range angle — instead, the output flattens the scene into a 2D lateral layout.
+The model fails to render a consistent 3D perspective despite explicit prompt instructions involving fixed viewpoint and depth. There is no foreshortening or distortion expected from a close-range angle, instead, the output flattens the scene into a 2D lateral layout.
 
 This suggests the model is reasoning in a 2D image space (X and Y), without a true Z-axis for depth. It assembles learned visual patterns rather than constructing scenes from a coherent spatial viewpoint. This limitation becomes especially visible when prompts imply grounded camera geometry, occlusion, or physical orientation in space.
