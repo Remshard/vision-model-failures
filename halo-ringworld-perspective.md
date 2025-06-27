@@ -4,7 +4,7 @@
 A black-and-white ink illustration, parodying the 2001 Halo: Combat Evolved cover, drawn in the style of 1950s science fiction artwork. The armored protagonist is standing on the surface of a massive ringworld, facing the viewer. The camera is positioned at eye level, looking outward from the surface. The ring’s curve should rise into the background behind the character, suggesting immense scale and perspective distortion.
 
 ## Result
-(Insert uploaded image here)
+![Ringworld perspective test](https://github.com/Remshard/vision-model-failures/blob/main/halo-ringworld-perspective.png?raw=true)
 
 ## Evaluation
 Despite clear prompt instructions for a first-person perspective standing on the ringworld, the model rendered a composition where the ring floats behind the figure—similar to a conceptual backdrop—rather than as a continuous ground plane beneath and behind the subject.
