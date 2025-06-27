@@ -7,9 +7,9 @@ A black-and-white ink illustration, parodying the 2001 Halo: Combat Evolved cove
 ![Ringworld perspective test](https://github.com/Remshard/vision-model-failures/blob/main/halo-ringworld-perspective.png?raw=true)
 
 ## Evaluation
-Despite clear prompt instructions for a first-person perspective standing on the ringworld, the model rendered a composition where the ring floats behind the figure—similar to a conceptual backdrop—rather than as a continuous ground plane beneath and behind the subject.
+Despite clear prompt instructions for a grounded third-person perspective, viewing the armored protagonist from eye level as they stand on the ringworld’s surface, the model rendered a composition where the ring floats behind the figure, similar to a conceptual backdrop, rather than forming a continuous surface beneath and beyond the subject.
 
-There is no curvature of terrain underfoot, no distortion consistent with standing on a curved megastructure, and no attempt at aligning vanishing lines from the viewer’s perspective. The output matches a learned layout (poster-style) rather than a physically coherent space.
+There is no curvature of terrain underfoot, no distortion consistent with standing on a curved megastructure, and no attempt at aligning vanishing lines from the viewer’s perspective. The output matches a learned layout (poster-style) rather than a physically coherent space. The false ringworld's shape is also inconsistent; if you follow the curve behind the protagonist, the edges wouldn’t meet in a way that forms a true ring.
 
 ## Takeaway
 The model demonstrates difficulty reconciling prompt constraints involving viewpoint, surface continuity, and horizon curvature. This test reveals limitations in spatial reasoning when prompts imply geometric consistency beyond pattern recognition. This inspired a follow-up prompt involving a hamster running on a wheel, viewed from a similarly constrained geometric perspective, an inch from its face, designed to further test the model's ability to construct the illusion of depth and maintain coherent 3D spatial logic from a grounded camera viewpoint.
